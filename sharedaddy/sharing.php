@@ -9,6 +9,7 @@ class Sharing_Admin {
 
 		require_once WP_SHARING_PLUGIN_DIR.'sharing-service.php';
 
+		add_filter( 'plugin_action_links_' . plugin_basename( POJO_SHARING__FILE__ ), array( &$this, 'plugin_action_links' ) );
 		add_action( 'admin_init', array( &$this, 'admin_init' ) );
 		add_action( 'admin_menu', array( &$this, 'subscription_menu' ), 500 );
 
@@ -20,6 +21,16 @@ class Sharing_Admin {
 		add_action( 'wp_ajax_sharing_save_options', array( &$this, 'ajax_save_options' ) );
 		add_action( 'wp_ajax_sharing_new_service', array( &$this, 'ajax_new_service' ) );
 		add_action( 'wp_ajax_sharing_delete_service', array( &$this, 'ajax_delete_service' ) );
+	}
+
+	public function plugin_action_links( $links ) {
+		$settings_link = sprintf( '<a href="%s" target="_blank">%s</a>', 'https://github.com/pojome/pojo-sharing', __( 'GitHub', 'pojo-sharing' ) );
+		array_unshift( $links, $settings_link );
+
+		$settings_link = sprintf( '<a href="%s">%s</a>', admin_url( 'options-general.php?page=sharing' ), __( 'Settings', 'pojo-sharing' ) );
+		array_unshift( $links, $settings_link );
+
+		return $links;
 	}
 
 	public function sharing_head() {

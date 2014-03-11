@@ -23,20 +23,11 @@
  * Auto Activate: Yes
  */
 
+define( 'POJO_SHARING__FILE__', __FILE__ );
+
 if ( !function_exists( 'sharing_init' ) )
 	include dirname( __FILE__ ).'/sharedaddy/sharedaddy.php';
 
-// add_action( 'pojo_modules_loaded', 'sharedaddy_loaded' );
-
-// function sharedaddy_loaded() {
-//         Pojo::enable_module_configurable( __FILE__ );
-//         Pojo::module_configuration_load( __FILE__, 'sharedaddy_configuration_load' );
-// }
-
-// function sharedaddy_configuration_load() {
-//         wp_safe_redirect( menu_page_url( 'sharing', false ) . "#sharing-buttons" );
-//         exit;
-// } // Edited by Anas H. Sulaiman
 
 add_action( 'plugins_loaded', 'sharing_load_textdomain' ); // Edited by Anas H. Sulaiman
 function sharing_load_textdomain() {
