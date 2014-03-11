@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Pojo Sharing
  * Plugin URI: http://www.pojo.me/
- * Description: Share content with Facebook, Twitter, and many more. <a href="options-general.php?page=sharing">Settings</a>
+ * Description: Share content with Facebook, Twitter, and many more.
  * Author: Anas H. Sulaiman, Pojo
  * Version: 2.5
  * Author URI: http://pojo.me/
