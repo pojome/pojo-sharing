@@ -14,7 +14,7 @@ class Sharing_Admin {
 		add_action( 'admin_menu', array( &$this, 'subscription_menu' ), 500 );
 
 		// Insert our CSS and JS
-		add_action( 'load-settings_page_sharing', array( &$this, 'sharing_head' ) );
+		add_action( 'load-theme-options_page_sharing', array( &$this, 'sharing_head' ) );
 
 		// Catch AJAX
 		add_action( 'wp_ajax_sharing_save_services', array( &$this, 'ajax_save_services' ) );
@@ -27,7 +27,7 @@ class Sharing_Admin {
 		$settings_link = sprintf( '<a href="%s" target="_blank">%s</a>', 'https://github.com/pojome/pojo-sharing', __( 'GitHub', 'pojo-sharing' ) );
 		array_unshift( $links, $settings_link );
 
-		$settings_link = sprintf( '<a href="%s">%s</a>', admin_url( 'options-general.php?page=sharing' ), __( 'Settings', 'pojo-sharing' ) );
+		$settings_link = sprintf( '<a href="%s">%s</a>', admin_url( 'admin.php?page=sharing' ), __( 'Settings', 'pojo-sharing' ) );
 		array_unshift( $links, $settings_link );
 
 		return $links;
@@ -53,7 +53,7 @@ class Sharing_Admin {
 			$sharer->set_global_options( $_POST );
 			do_action( 'sharing_admin_update' );
 
-			wp_safe_redirect( admin_url( 'options-general.php?page=sharing&update=saved' ) );
+			wp_safe_redirect( admin_url( 'admin.php?page=sharing&update=saved' ) );
 			die();
 		}
 	}
@@ -66,7 +66,7 @@ class Sharing_Admin {
 		// } // Edited by Anas H. Sulaiman
 
 		if ( !current_user_can( 'manage_options' ) ) return; // Edited by Anas H. Sulaiman
-		add_submenu_page( 'options-general.php', __( 'Sharing Settings', 'pojo-sharing' ), __( 'Sharing', 'pojo-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) );
+		add_submenu_page( 'pojo-general', __( 'Sharing Settings', 'pojo-sharing' ), __( 'Sharing', 'pojo-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) );
 	}
 
 	public function ajax_save_services() {

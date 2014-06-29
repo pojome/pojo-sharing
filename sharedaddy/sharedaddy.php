@@ -72,14 +72,14 @@ function sharing_meta_box_protected( $protected, $meta_key, $meta_type ) {
 //add_filter( 'is_protected_meta', 'sharing_meta_box_protected', 10, 3 );
 
 function sharing_plugin_settings( $links ) {
-	$settings_link = '<a href="options-general.php?page=sharing.php">'.__( 'Settings', 'pojo-sharing' ).'</a>';
+	$settings_link = '<a href="admin.php?page=sharing.php">'.__( 'Settings', 'pojo-sharing' ).'</a>';
 	array_unshift( $links, $settings_link );
 	return $links;
 }
 
 function sharing_add_plugin_settings($links, $file) {
 	if ( $file == basename( dirname( __FILE__ ) ).'/'.basename( __FILE__ ) ) {
-		$links[] = '<a href="options-general.php?page=sharing.php">' . __( 'Settings', 'pojo-sharing' ) . '</a>';
+		$links[] = '<a href="admin.php?page=sharing.php">' . __( 'Settings', 'pojo-sharing' ) . '</a>';
 		$links[] = '<a href="http://support.wordpress.com/sharing/">' . __( 'Support', 'pojo-sharing' ) . '</a>';
 	}
 
