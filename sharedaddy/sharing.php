@@ -2,7 +2,7 @@
 
 class Sharing_Admin {
 	public function __construct() {
-		if ( !defined( 'WP_SHARING_PLUGIN_URL' ) ) {
+		if ( ! defined( 'WP_SHARING_PLUGIN_URL' ) ) {
 			define( 'WP_SHARING_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 			define( 'WP_SHARING_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 		}
@@ -12,10 +12,7 @@ class Sharing_Admin {
 		add_filter( 'plugin_action_links_' . plugin_basename( POJO_SHARING__FILE__ ), array( &$this, 'plugin_action_links' ) );
 		add_action( 'admin_init', array( &$this, 'admin_init' ) );
 		add_action( 'admin_menu', array( &$this, 'subscription_menu' ), 500 );
-
-		// Insert our CSS and JS
-		add_action( 'load-theme-options_page_sharing', array( &$this, 'sharing_head' ) );
-
+		
 		// Catch AJAX
 		add_action( 'wp_ajax_sharing_save_services', array( &$this, 'ajax_save_services' ) );
 		add_action( 'wp_ajax_sharing_save_options', array( &$this, 'ajax_save_options' ) );
@@ -65,8 +62,11 @@ class Sharing_Admin {
 		// 		return;
 		// } // Edited by Anas H. Sulaiman
 
-		if ( !current_user_can( 'manage_options' ) ) return; // Edited by Anas H. Sulaiman
-		add_submenu_page( 'pojo-general', __( 'Sharing Settings', 'pojo-sharing' ), __( 'Sharing', 'pojo-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) );
+		if ( ! current_user_can( 'manage_options' ) ) return; // Edited by Anas H. Sulaiman
+		$hook = add_submenu_page( 'pojo-general', __( 'Sharing Settings', 'pojo-sharing' ), __( 'Sharing', 'pojo-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) );
+		
+		// Insert our CSS and JS
+		add_action( 'load-' . $hook, array( &$this, 'sharing_head' ) );
 	}
 
 	public function ajax_save_services() {
