@@ -32,6 +32,8 @@
  * THE SOFTWARE.
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 /**
  * The reCAPTCHA server URL's
  */

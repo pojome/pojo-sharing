@@ -1,9 +1,10 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 include_once dirname( __FILE__ ).'/sharing-sources.php';
 
-// define( 'WP_SHARING_PLUGIN_VERSION', POJO__VERSION ); // Edited by Anas H. Sulaiman
-define( 'WP_SHARING_PLUGIN_VERSION', '1.0' ); // Edited by Anas H. Sulaiman
+define( 'WP_SHARING_PLUGIN_VERSION', '1.0' );
 
 class Sharing_Service {
 	private $global = false;
@@ -608,7 +609,6 @@ function sharing_display( $text = '', $echo = false ) {
 add_filter( 'the_content', 'sharing_display', 19 );
 add_filter( 'the_excerpt', 'sharing_display', 19 );
 function get_base_recaptcha_lang_code() {
-
 	$base_recaptcha_lang_code_mapping = array(
 		'en'    => 'en',
 		'nl'    => 'nl',
@@ -631,9 +631,3 @@ function get_base_recaptcha_lang_code() {
 	// if no base mapping is found return default 'en'
 	return 'en';
 }
-
-/*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: replaced text domain
-*/

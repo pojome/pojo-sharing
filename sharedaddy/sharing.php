@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 class Sharing_Admin {
 	public function __construct() {
@@ -56,13 +57,7 @@ class Sharing_Admin {
 	}
 
 	public function subscription_menu( $user ) {
-		// if ( !defined( 'IS_WPCOM' ) || !IS_WPCOM ) {
-		// 	$active = Pojo::get_active_modules();
-		// 	if ( !in_array( 'publicize', $active ) && !current_user_can( 'manage_options' ) )
-		// 		return;
-		// } // Edited by Anas H. Sulaiman
-
-		if ( ! current_user_can( 'manage_options' ) ) return; // Edited by Anas H. Sulaiman
+		if ( ! current_user_can( 'manage_options' ) ) return;
 		$hook = add_submenu_page( 'pojo-general', __( 'Sharing Settings', 'pojo-sharing' ), __( 'Sharing', 'pojo-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) );
 		
 		// Insert our CSS and JS
@@ -449,9 +444,3 @@ function sharing_admin_init() {
 }
 
 add_action( 'init', 'sharing_admin_init' );
-
-/*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: replaced text domain
-*/
