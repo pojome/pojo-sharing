@@ -1,6 +1,6 @@
 # Pojo Sharing #
 **Contributors:** pojo.me, KingYes, ariel.k
-**Tags:**email, print, digg, facebook, google, linkedin, pinterest, Reddit, share, sharing, social, stumbleupon, tumblr, twitter
+**Tags:** email, print, digg, facebook, google, linkedin, pinterest, Reddit, share, sharing, social, stumbleupon, tumblr, twitter
 **Requires at least:** 3.5  
 **Tested up to:** 3.9.2  
 **Stable tag:** 2.5.3  
