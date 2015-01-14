@@ -58,7 +58,7 @@ class Sharing_Admin {
 
 	public function subscription_menu( $user ) {
 		if ( ! current_user_can( 'manage_options' ) ) return;
-		$hook = add_submenu_page( 'pojo-general', __( 'Sharing Settings', 'pojo-sharing' ), __( 'Sharing', 'pojo-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) );
+		$hook = add_submenu_page( 'pojo-home', __( 'Sharing Settings', 'pojo-sharing' ), __( 'Sharing', 'pojo-sharing' ), 'publish_posts', 'sharing', array( &$this, 'management_page' ) );
 		
 		// Insert our CSS and JS
 		add_action( 'load-' . $hook, array( &$this, 'sharing_head' ) );
