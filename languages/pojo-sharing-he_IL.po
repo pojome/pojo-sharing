@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pojo Sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-23 12:28+0200\n"
-"PO-Revision-Date: 2014-04-23 12:29+0200\n"
-"Last-Translator: Ariel K <a@arielk.net>\n"
+"POT-Creation-Date: 2015-01-27 16:08+0200\n"
+"PO-Revision-Date: 2015-01-27 16:10+0200\n"
+"Last-Translator: Yakir Sitbon <yakir@pojo.me>\n"
 "Language-Team: Pojo Team <team@pojo.me>\n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
@@ -29,7 +29,7 @@ msgstr ""
 "על Pojo Framework."
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:14
+#: sharedaddy/sharedaddy.php:7
 #, php-format
 msgid ""
 "%1$s (%2$s) thinks you may be interested in the following post:\n"
@@ -37,271 +37,271 @@ msgid ""
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:18
+#: sharedaddy/sharedaddy.php:11
 msgid "Shared Post"
 msgstr "שיתוף עמוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:23 sharedaddy/sharing.php:69
+#: sharedaddy/sharedaddy.php:16 sharedaddy/sharing.php:61
 msgid "Sharing"
 msgstr "שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:37
+#: sharedaddy/sharedaddy.php:30
 msgid "Show sharing buttons."
 msgstr "הצגת כפתורי שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:75 sharedaddy/sharedaddy.php:82
-#: sharedaddy/sharing.php:30
+#: sharedaddy/sharedaddy.php:68 sharedaddy/sharedaddy.php:75
+#: sharedaddy/sharing.php:28
 msgid "Settings"
 msgstr "הגדרות"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:83
+#: sharedaddy/sharedaddy.php:76
 #, fuzzy
 msgid "Support"
 msgstr "העסקה שלך נכשלה, יש לנסות שוב או לפנות אלינו באמצעות טופס יצירת קשר."
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:113
+#: sharedaddy/sharedaddy.php:106
 #, fuzzy
 msgid "Disable CSS and JS"
 msgstr "אל תאפשר"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:115
+#: sharedaddy/sharedaddy.php:108
 msgid ""
 "Advanced.  If this option is checked, you must include these files in your "
 "theme manually for the sharing links to work."
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-service.php:13 sharedaddy/sharing-service.php:554
+#: sharedaddy/sharing-service.php:14 sharedaddy/sharing-service.php:556
 msgid "Share"
 msgstr "שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-service.php:552 sharedaddy/sharing.php:265
-#: sharedaddy/sharing.php:298
+#: sharedaddy/sharing-service.php:554 sharedaddy/sharing.php:260
+#: sharedaddy/sharing.php:293
 msgid "More"
 msgstr "עוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:200
+#: sharedaddy/sharing-sources.php:201
 #, fuzzy
 msgctxt "as sharing source"
 msgid "Email"
 msgstr "שליחת אימייל אל"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:242
+#: sharedaddy/sharing-sources.php:243
 #, fuzzy
 msgid "This post has been shared!"
 msgstr "סיסמתך אופסה."
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:243
+#: sharedaddy/sharing-sources.php:244
 #, fuzzy, php-format
 msgid "You have shared this post with %s"
 msgstr "אתה חייב  <a href=\"%s\">להתחבר</a> כדי להגיב."
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:244
+#: sharedaddy/sharing-sources.php:245
 msgid "Close"
 msgstr "סגירה"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:266
+#: sharedaddy/sharing-sources.php:267
 #, fuzzy
 msgctxt "share to"
 msgid "Email"
 msgstr "שליחת אימייל אל"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:266
+#: sharedaddy/sharing-sources.php:267
 msgid "Click to email this to a friend"
 msgstr "שליחת עמוד זה באימייל"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:279
+#: sharedaddy/sharing-sources.php:280
 msgid "Send to Email Address"
 msgstr "שליחה לכתובת אימייל"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:287
+#: sharedaddy/sharing-sources.php:288
 msgid "Your Name"
 msgstr "השם שלך"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:290
+#: sharedaddy/sharing-sources.php:291
 msgid "Your Email Address"
 msgstr "האימייל שלך"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:298
+#: sharedaddy/sharing-sources.php:299
 msgid "Send Email"
 msgstr "שליחת אימייל"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:299
+#: sharedaddy/sharing-sources.php:300
 msgid "Cancel"
 msgstr "ביטול"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:302
+#: sharedaddy/sharing-sources.php:303
 msgid "Post was not sent - check your email addresses!"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:306
+#: sharedaddy/sharing-sources.php:307
 msgid "Email check failed, please try again"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:310
+#: sharedaddy/sharing-sources.php:311
 msgid "Sorry, your blog cannot share posts by email."
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:333
+#: sharedaddy/sharing-sources.php:334
 msgid "Twitter"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:379
+#: sharedaddy/sharing-sources.php:380
 msgctxt "share to"
 msgid "Twitter"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:379
+#: sharedaddy/sharing-sources.php:380
 #, fuzzy
 msgid "Click to share on Twitter"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:454
+#: sharedaddy/sharing-sources.php:455
 msgid "StumbleUpon"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:465
+#: sharedaddy/sharing-sources.php:466
 msgctxt "share to"
 msgid "StumbleUpon"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:465
+#: sharedaddy/sharing-sources.php:466
 #, fuzzy
 msgid "Click to share on StumbleUpon"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:492
+#: sharedaddy/sharing-sources.php:493
 msgid "Reddit"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:499
+#: sharedaddy/sharing-sources.php:500
 msgctxt "share to"
 msgid "Reddit"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:499
+#: sharedaddy/sharing-sources.php:500
 #, fuzzy
 msgid "Click to share on Reddit"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:526
+#: sharedaddy/sharing-sources.php:527
 msgid "Digg"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:535 sharedaddy/sharing-sources.php:538
+#: sharedaddy/sharing-sources.php:536 sharedaddy/sharing-sources.php:539
 #, fuzzy
 msgid "Click to Digg this post"
 msgstr "פוסט"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:538
+#: sharedaddy/sharing-sources.php:539
 msgctxt "share to"
 msgid "Digg"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:582
+#: sharedaddy/sharing-sources.php:583
 msgid "LinkedIn"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:596
+#: sharedaddy/sharing-sources.php:597
 msgctxt "share to"
 msgid "LinkedIn"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:596
+#: sharedaddy/sharing-sources.php:597
 #, fuzzy
 msgid "Click to share on LinkedIn"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:659
+#: sharedaddy/sharing-sources.php:660
 #, fuzzy
 msgid "Facebook"
 msgstr "פייסבוק"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:733
+#: sharedaddy/sharing-sources.php:734
 #, fuzzy
 msgctxt "share to"
 msgid "Facebook"
 msgstr "פייסבוק"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:733
+#: sharedaddy/sharing-sources.php:734
 #, fuzzy
 msgid "Share on Facebook"
 msgstr "פייסבוק"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:764
+#: sharedaddy/sharing-sources.php:765
 msgid "Print"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:768
+#: sharedaddy/sharing-sources.php:769
 msgctxt "share to"
 msgid "Print"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:768
+#: sharedaddy/sharing-sources.php:769
 msgid "Click to print"
 msgstr "קליק כדי להדפיס"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:784
+#: sharedaddy/sharing-sources.php:785
 msgid "Press This"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:812
+#: sharedaddy/sharing-sources.php:813
 msgctxt "share to"
 msgid "Press This"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:812
+#: sharedaddy/sharing-sources.php:813
 #, fuzzy
 msgid "Click to Press This!"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:830
+#: sharedaddy/sharing-sources.php:831
 #, fuzzy
 msgid "Google"
 msgstr ""
@@ -309,7 +309,7 @@ msgstr ""
 "סטטיסטיים מפורטים על המבקרים באתר."
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:843
+#: sharedaddy/sharing-sources.php:844
 #, fuzzy
 msgctxt "share to"
 msgid "Google"
@@ -318,114 +318,114 @@ msgstr ""
 "סטטיסטיים מפורטים על המבקרים באתר."
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:843
+#: sharedaddy/sharing-sources.php:844
 #, fuzzy
 msgid "Click to share on Google+"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:930
+#: sharedaddy/sharing-sources.php:931
 msgid "Click to share"
 msgstr "קליק כדי לשתף"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:980
+#: sharedaddy/sharing-sources.php:981
 msgid "Label"
 msgstr "כותרת"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:985
+#: sharedaddy/sharing-sources.php:986
 #, fuzzy
 msgid "URL"
 msgstr "קישור URL"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:990
+#: sharedaddy/sharing-sources.php:991
 msgid "Icon"
 msgstr "אייקון"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:997
+#: sharedaddy/sharing-sources.php:998
 msgid "Save"
 msgstr "שמירה"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:998
+#: sharedaddy/sharing-sources.php:999
 msgid "Remove Service"
 msgstr "מחיקת שירות"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1077
+#: sharedaddy/sharing-sources.php:1078
 msgid "Tumblr"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1088
+#: sharedaddy/sharing-sources.php:1089
 msgctxt "share to"
 msgid "Tumblr"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1088
+#: sharedaddy/sharing-sources.php:1089
 #, fuzzy
 msgid "Click to share on Tumblr"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1124
+#: sharedaddy/sharing-sources.php:1125
 msgid "Pinterest"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1168
+#: sharedaddy/sharing-sources.php:1169
 msgid "Pin It"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1170
+#: sharedaddy/sharing-sources.php:1171
 msgctxt "share to"
 msgid "Pinterest"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1170
+#: sharedaddy/sharing-sources.php:1171
 #, fuzzy
 msgid "Click to share on Pinterest"
 msgstr "לחיצה כדי להזין את הקוד"
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1241
+#: sharedaddy/sharing-sources.php:1242
 msgid "Pocket"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1264
+#: sharedaddy/sharing-sources.php:1265
 msgctxt "share to"
 msgid "Pocket"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing-sources.php:1264
+#: sharedaddy/sharing-sources.php:1265
 #, fuzzy
 msgid "Click to share on Pocket"
 msgstr "לחיצה כדי להזין את הקוד"
 
-#: sharedaddy/sharing.php:27
+#: sharedaddy/sharing.php:25
 msgid "GitHub"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:69 sharedaddy/sharing.php:176
+#: sharedaddy/sharing.php:61 sharedaddy/sharing.php:171
 msgid "Sharing Settings"
 msgstr "הגדרות שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:166
+#: sharedaddy/sharing.php:161
 msgid "Warning! Multibyte support missing!"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:167
+#: sharedaddy/sharing.php:162
 #, php-format
 msgid ""
 "This plugin will work without it, but multibyte support is used <a href=\"%s"
@@ -434,17 +434,17 @@ msgid ""
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:171
+#: sharedaddy/sharing.php:166
 msgid "Settings have been saved"
 msgstr "ההגדרות נשמרו"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:183
+#: sharedaddy/sharing.php:178
 msgid "Sharing Buttons"
 msgstr "כפתורי שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:184
+#: sharedaddy/sharing.php:179
 msgid ""
 "Add sharing buttons to your blog and allow your visitors to share posts with "
 "their friends."
@@ -453,138 +453,142 @@ msgstr ""
 "החברים שלהם."
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:190
+#: sharedaddy/sharing.php:185
 msgid "Available Services"
 msgstr "כפתורי שיתוף אפשריים"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:191
+#: sharedaddy/sharing.php:186
 msgid "Drag and drop the services you'd like to enable into the box below."
 msgstr "גרור ושחרר למטה את הכפתורי שיתוף שברצונך להשתמש"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:205
+#: sharedaddy/sharing.php:200
 msgid ""
 "Please note that your services have been restricted because your site is "
 "private."
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:216
+#: sharedaddy/sharing.php:211
 msgid "Enabled Services"
 msgstr "כפתורי שיתוף בשימוש"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:219
+#: sharedaddy/sharing.php:214
 msgid "Services dragged here will appear individually."
 msgstr "הכפתורי שיתוף שיוצגו באתר שלך"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:222
+#: sharedaddy/sharing.php:217
 msgid "Drag and drop available services here."
 msgstr "גרור ושחרר לכאן כפתורי שיתוף מלמעלה."
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:250
+#: sharedaddy/sharing.php:245
 msgid "Live Preview"
 msgstr "תצוגה מקדימה"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:253
+#: sharedaddy/sharing.php:248
 msgid "Sharing is off. Add services above to enable."
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:319
+#: sharedaddy/sharing.php:314
 msgid "Button style"
 msgstr "סגנון כפתור"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:322
+#: sharedaddy/sharing.php:317
 msgid "Icon + text"
 msgstr "אייקון + טקסט"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:323
+#: sharedaddy/sharing.php:318
 msgid "Icon only"
 msgstr "רק אייקון"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:324
+#: sharedaddy/sharing.php:319
 msgid "Text only"
 msgstr "רק טקסט"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:325
+#: sharedaddy/sharing.php:320
 msgid "Official buttons"
 msgstr "אייקונים רשמיים"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:330
+#: sharedaddy/sharing.php:325
 msgid "Sharing label"
 msgstr "כותרת שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:336
+#: sharedaddy/sharing.php:331
 msgid "Open links in"
 msgstr "פתיחת קישור ב"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:339
+#: sharedaddy/sharing.php:334
 msgid "New window"
 msgstr "לשונית חדשה"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:340
+#: sharedaddy/sharing.php:335
 msgid "Same window"
 msgstr "אותה לשונית"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:345
+#: sharedaddy/sharing.php:340
 msgid "Show buttons on"
-msgstr ""
+msgstr "הצג כפתורי שיתוף ב"
+
+#: sharedaddy/sharing.php:347
+msgid "Front Page"
+msgstr "דף הבית"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:368
+#: sharedaddy/sharing.php:363
 msgid "Save Changes"
 msgstr "שמירת שינויים"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:379
+#: sharedaddy/sharing.php:374
 #, fuzzy
 msgid "Service name"
 msgstr "שם:"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:385
+#: sharedaddy/sharing.php:380
 #, fuzzy
 msgid "Sharing URL"
 msgstr "קישור URL"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:389
+#: sharedaddy/sharing.php:384
 msgid "You can add the following variables to your service sharing URL:"
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:394
+#: sharedaddy/sharing.php:389
 #, fuzzy
 msgid "Icon URL"
 msgstr "קישור URL"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:397
+#: sharedaddy/sharing.php:392
 msgid "Enter the URL of a 16x16px icon you want to use for this service."
 msgstr ""
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:403
+#: sharedaddy/sharing.php:398
 #, fuzzy
 msgid "Create Share Button"
 msgstr "כפתור"
 
 # @ pojo-sharing
-#: sharedaddy/sharing.php:415
+#: sharedaddy/sharing.php:410
 msgid ""
 "An error occurred creating your new sharing service - please check you gave "
 "valid details."
