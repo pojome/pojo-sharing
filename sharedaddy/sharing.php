@@ -344,7 +344,7 @@ class Sharing_Admin {
 							foreach ( $shows as $show ) :
 								if ( 'index' == $show ) {
 									//$label = __( 'Front Page, Archive Pages, and Search Results', 'pojo-sharing' );
-									continue;
+									$label = __( 'Front Page', 'pojo-sharing' );
 								} else {
 									$post_type_object = get_post_type_object( $show );
 									$label = $post_type_object->labels->name;
