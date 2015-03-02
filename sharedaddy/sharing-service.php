@@ -608,7 +608,7 @@ function sharing_display( $text = '', $echo = false ) {
 }
 
 add_filter( 'the_content', 'sharing_display', 19 );
-add_filter( 'the_excerpt', 'sharing_display', 19 );
+//add_filter( 'the_excerpt', 'sharing_display', 19 );
 function get_base_recaptcha_lang_code() {
 	$base_recaptcha_lang_code_mapping = array(
 		'en'    => 'en',
