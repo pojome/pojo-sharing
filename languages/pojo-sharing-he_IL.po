@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pojo Sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-27 16:08+0200\n"
-"PO-Revision-Date: 2015-04-13 11:11+0200\n"
+"POT-Creation-Date: 2015-04-13 11:53+0200\n"
+"PO-Revision-Date: 2015-04-13 11:53+0200\n"
 "Last-Translator: Yakir Sitbon <yakir@pojo.me>\n"
 "Language-Team: Pojo Team <team@pojo.me>\n"
 "Language: he_IL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
@@ -38,41 +38,40 @@ msgstr ""
 "%1$s (%2$s) שיתף אותך בתוכן הבא:\n"
 "\n"
 
-# @ pojo-sharing
-#: sharedaddy/sharedaddy.php:11
-msgid "Shared Post"
-msgstr "שיתוף עמוד"
+#: sharedaddy/sharedaddy.php:14
+msgid "Shared Content"
+msgstr "שיתוף תוכן"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:16 sharedaddy/sharing.php:61
+#: sharedaddy/sharedaddy.php:19 sharedaddy/sharing.php:61
 msgid "Sharing"
 msgstr "שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:30
+#: sharedaddy/sharedaddy.php:33
 msgid "Show sharing buttons."
 msgstr "הצגת כפתורי שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:68 sharedaddy/sharedaddy.php:75
+#: sharedaddy/sharedaddy.php:71 sharedaddy/sharedaddy.php:78
 #: sharedaddy/sharing.php:28
 msgid "Settings"
 msgstr "הגדרות"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:76
+#: sharedaddy/sharedaddy.php:79
 #, fuzzy
 msgid "Support"
 msgstr "העסקה שלך נכשלה, יש לנסות שוב או לפנות אלינו באמצעות טופס יצירת קשר."
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:106
+#: sharedaddy/sharedaddy.php:109
 #, fuzzy
 msgid "Disable CSS and JS"
 msgstr "אל תאפשר"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:108
+#: sharedaddy/sharedaddy.php:111
 msgid ""
 "Advanced.  If this option is checked, you must include these files in your "
 "theme manually for the sharing links to work."
@@ -269,13 +268,13 @@ msgstr "פייסבוק"
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:765
 msgid "Print"
-msgstr ""
+msgstr "הדפסה"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:769
 msgctxt "share to"
 msgid "Print"
-msgstr ""
+msgstr "הדפסה"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:769
@@ -590,3 +589,7 @@ msgid ""
 "An error occurred creating your new sharing service - please check you gave "
 "valid details."
 msgstr ""
+
+# @ pojo-sharing
+#~ msgid "Shared Post"
+#~ msgstr "שיתוף תוכן"

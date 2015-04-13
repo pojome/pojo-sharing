@@ -7,8 +7,11 @@ function sharing_email_send_post( $data ) {
 	$content  = sprintf( __( '%1$s (%2$s) thinks you may be interested in the following post:'."\n\n", 'pojo-sharing' ), $data['name'], $data['source'] );
 	$content .= $data['post']->post_title."\n";
 	$content .= get_permalink( $data['post']->ID )."\n";
+	
+	$headers = "From: {$data['name']} <{$data['source']}>\r\n";
+	$headers .= "Reply-To: {$data['source']}\r\n";
 
-	wp_mail( $data['target'], '['.__( 'Shared Post', 'pojo-sharing' ).'] '.$data['post']->post_title, $content );
+	wp_mail( $data['target'], __( 'Shared Content', 'pojo-sharing' ) . ': ' . $data['post']->post_title, $content, $headers );
 }
 
 function sharing_add_meta_box() {
