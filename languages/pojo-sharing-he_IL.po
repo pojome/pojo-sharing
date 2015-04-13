@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Pojo Sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-27 16:08+0200\n"
-"PO-Revision-Date: 2015-01-27 16:10+0200\n"
+"PO-Revision-Date: 2015-04-13 11:11+0200\n"
 "Last-Translator: Yakir Sitbon <yakir@pojo.me>\n"
 "Language-Team: Pojo Team <team@pojo.me>\n"
 "Language: he_IL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Poedit 1.7.3\n"
+"X-Generator: Poedit 1.7.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
@@ -35,6 +35,8 @@ msgid ""
 "%1$s (%2$s) thinks you may be interested in the following post:\n"
 "\n"
 msgstr ""
+"%1$s (%2$s) שיתף אותך בתוכן הבא:\n"
+"\n"
 
 # @ pojo-sharing
 #: sharedaddy/sharedaddy.php:11
@@ -89,22 +91,20 @@ msgstr "עוד"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:201
-#, fuzzy
 msgctxt "as sharing source"
 msgid "Email"
-msgstr "שליחת אימייל אל"
+msgstr "אימייל"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:243
-#, fuzzy
 msgid "This post has been shared!"
-msgstr "סיסמתך אופסה."
+msgstr "התוכן שלך שותף בהצלחה!"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:244
-#, fuzzy, php-format
+#, php-format
 msgid "You have shared this post with %s"
-msgstr "אתה חייב  <a href=\"%s\">להתחבר</a> כדי להגיב."
+msgstr "שיתפת את התוכן הזה עם %s"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:245
@@ -113,10 +113,9 @@ msgstr "סגירה"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:267
-#, fuzzy
 msgctxt "share to"
 msgid "Email"
-msgstr "שליחת אימייל אל"
+msgstr "אימייל"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:267
@@ -151,17 +150,17 @@ msgstr "ביטול"
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:303
 msgid "Post was not sent - check your email addresses!"
-msgstr ""
+msgstr "ההודעה לא נשלחה - יש לבדוק את כתובת האימייל שוב!"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:307
 msgid "Email check failed, please try again"
-msgstr ""
+msgstr "בדיקת אימייל נכשלה, יש לנסות שוב"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:311
 msgid "Sorry, your blog cannot share posts by email."
-msgstr ""
+msgstr "מצטערים, האתר שלך אינו מאפשר שיתוף תוכן באמצעות האימייל"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:334
@@ -335,7 +334,6 @@ msgstr "כותרת"
 
 # @ pojo-sharing
 #: sharedaddy/sharing-sources.php:986
-#, fuzzy
 msgid "URL"
 msgstr "קישור URL"
 
@@ -467,7 +465,7 @@ msgstr "גרור ושחרר למטה את הכפתורי שיתוף שברצונ
 msgid ""
 "Please note that your services have been restricted because your site is "
 "private."
-msgstr ""
+msgstr "שים לב שאפשרויות השיתוף שלך יהיו מוגבלות בגלל שהאתר שלך פרטי."
 
 # @ pojo-sharing
 #: sharedaddy/sharing.php:211
@@ -492,7 +490,7 @@ msgstr "תצוגה מקדימה"
 # @ pojo-sharing
 #: sharedaddy/sharing.php:248
 msgid "Sharing is off. Add services above to enable."
-msgstr ""
+msgstr "אפשרויות השיתוף מכובות. יש להוסיף אפשרויות שיתוף מתחת כדי להפעיל אותן."
 
 # @ pojo-sharing
 #: sharedaddy/sharing.php:314
@@ -561,7 +559,6 @@ msgstr "שם:"
 
 # @ pojo-sharing
 #: sharedaddy/sharing.php:380
-#, fuzzy
 msgid "Sharing URL"
 msgstr "קישור URL"
 
