@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pojo Sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 11:53+0200\n"
-"PO-Revision-Date: 2015-04-13 11:53+0200\n"
+"POT-Creation-Date: 2015-04-26 17:26+0200\n"
+"PO-Revision-Date: 2015-04-26 17:27+0200\n"
 "Last-Translator: Yakir Sitbon <yakir@pojo.me>\n"
 "Language-Team: Pojo Team <team@pojo.me>\n"
 "Language: he_IL\n"
@@ -28,8 +28,14 @@ msgstr ""
 "לשתף את התוכן שלך עם פייסבוק, טוויטר ועוד המון אפשרויות באתר WordPress שעובד "
 "על Pojo Framework."
 
+#: sharedaddy/sharedaddy.php:9
+#, php-format
+msgctxt "%1$s: Name; %2$s: Website"
+msgid "%1$s shared you content from %2$s"
+msgstr "%1$s שיתך איתך תוכן מ%2$s"
+
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:7
+#: sharedaddy/sharedaddy.php:17
 #, php-format
 msgid ""
 "%1$s (%2$s) thinks you may be interested in the following post:\n"
@@ -38,40 +44,36 @@ msgstr ""
 "%1$s (%2$s) שיתף אותך בתוכן הבא:\n"
 "\n"
 
-#: sharedaddy/sharedaddy.php:14
-msgid "Shared Content"
-msgstr "שיתוף תוכן"
-
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:19 sharedaddy/sharing.php:61
+#: sharedaddy/sharedaddy.php:28 sharedaddy/sharing.php:61
 msgid "Sharing"
 msgstr "שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:33
+#: sharedaddy/sharedaddy.php:42
 msgid "Show sharing buttons."
 msgstr "הצגת כפתורי שיתוף"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:71 sharedaddy/sharedaddy.php:78
+#: sharedaddy/sharedaddy.php:80 sharedaddy/sharedaddy.php:87
 #: sharedaddy/sharing.php:28
 msgid "Settings"
 msgstr "הגדרות"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:79
+#: sharedaddy/sharedaddy.php:88
 #, fuzzy
 msgid "Support"
 msgstr "העסקה שלך נכשלה, יש לנסות שוב או לפנות אלינו באמצעות טופס יצירת קשר."
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:109
+#: sharedaddy/sharedaddy.php:118
 #, fuzzy
 msgid "Disable CSS and JS"
 msgstr "אל תאפשר"
 
 # @ pojo-sharing
-#: sharedaddy/sharedaddy.php:111
+#: sharedaddy/sharedaddy.php:120
 msgid ""
 "Advanced.  If this option is checked, you must include these files in your "
 "theme manually for the sharing links to work."
@@ -589,6 +591,9 @@ msgid ""
 "An error occurred creating your new sharing service - please check you gave "
 "valid details."
 msgstr ""
+
+#~ msgid "Shared Content"
+#~ msgstr "שיתוף תוכן"
 
 # @ pojo-sharing
 #~ msgid "Shared Post"

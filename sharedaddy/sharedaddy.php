@@ -4,14 +4,23 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 require_once plugin_dir_path( __FILE__ ).'sharing.php';
 
 function sharing_email_send_post( $data ) {
+	$title = sprintf(
+		_x(
+			'%1$s shared you content from %2$s',
+			'%1$s: Name; %2$s: Website',
+			'pojo-sharing'
+		),
+		$data['name'],
+		get_bloginfo( 'name' )
+	);
+	
 	$content  = sprintf( __( '%1$s (%2$s) thinks you may be interested in the following post:'."\n\n", 'pojo-sharing' ), $data['name'], $data['source'] );
 	$content .= $data['post']->post_title."\n";
 	$content .= get_permalink( $data['post']->ID )."\n";
 	
 	$headers = "From: {$data['name']} <{$data['source']}>\r\n";
 	$headers .= "Reply-To: {$data['source']}\r\n";
-
-	wp_mail( $data['target'], __( 'Shared Content', 'pojo-sharing' ) . ': ' . $data['post']->post_title, $content, $headers );
+	wp_mail( $data['target'], $title, $content, $headers );
 }
 
 function sharing_add_meta_box() {
