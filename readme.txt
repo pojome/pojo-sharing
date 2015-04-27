@@ -3,7 +3,7 @@ Contributors: pojo.me, KingYes, ariel.k
 Tags: email, print, digg, facebook, google, linkedin, pinterest, Reddit, share, sharing, social, stumbleupon, tumblr, twitter
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 2.5.7
+Stable tag: 2.5.8
 License: GPLv2 or later
 
 Share content with Facebook, Twitter, Linkdin, Tumblr and many more networks on your WordPress site with Pojo Framework

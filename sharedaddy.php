@@ -4,7 +4,7 @@
  * Plugin URI: http://pojo.me/
  * Description: Share content with Facebook, Twitter, and many more.
  * Author: Anas H. Sulaiman, Pojo
- * Version: 2.5.7
+ * Version: 2.5.8
  * Author URI: http://pojo.me/
  * Text Domain: pojo-sharing
  * Domain Path: /languages/
