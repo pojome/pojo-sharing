@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="sharing-options">
+			<key name="sharing_label" />
+		</key>
+	</admin-texts>
+</wpml-config>
